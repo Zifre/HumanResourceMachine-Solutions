@@ -1,0 +1,51 @@
+-- Small Divide    --
+-- Size  / Minimum --
+--  15   /  16     --
+-- Speed / Minimum --
+--  75   /  76     --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX
+    JUMPZ    d
+    COPYTO   0
+    INBOX
+    COPYTO   1
+    COPYFROM 9
+    COPYTO   2
+b:
+    COPYFROM 0
+    SUB      1
+    COPYTO   0
+    JUMPN    c
+    BUMPUP   2
+    JUMP     b
+c:
+    COPYFROM 2
+d:
+    OUTBOX
+    JUMP     a
+
+
+DEFINE LABEL 0
+eJxTY2Bg8Bfdksot3lV6Ujy1g1u8bhZQiOGaUGpUj9iSyMOSatG7ZbTiTOU/p2yWr8o0lT+Yd050SftX
+uQ0TQOrqjPdmsxgKVrEYrug6YPR50i+TqulmZlXTQXId+peqCizOlYPYf4y14ixNn0e/t1CLBvGnOh3M
+u+lQODHU6Xt6u7tZ+mc/rbjcwMzYl0GFybfDjSYxjIJRMAroAgD2hDcX;
+
+DEFINE LABEL 1
+eJyTZWBgkNEQrLqhWTX9hmbMBiCXYZnK9LoYjWu1gTrzW9oM3vc3GNXNOmDEu7TZ8NKKCToxG2ZrRKwF
+qbviJNs83fHofElHwRU3HXiXgsRi7T+ngOhSv9mNuYHWMx6HnFuqENa/LCb83NKoCI5FXHExTQyjYBSM
+gkEDAPlbKxI;
+
+DEFINE LABEL 2
+eJxTZWBgCBXmWNQodbLEVuZgnpUsQ165XFN+ocL0umUq/cueqkSsBSphYJXcMCFHactkEHuyNsOcQJ2q
+6T5658rZDayzmg33Zheba/WssqqbtcK6bpaKrV7/I9vpdcm27sXPrasyQXqaPK1n7PGum7Xdd+/M9QFV
+03MDzabmBur1b/Rf0u7h3pTP5rE3e7/XltQtfmviGUbBKBgFdAMAKyw3qw;
+
+DEFINE LABEL 9
+eJxzYWBgUOYzShEQLU2rl27Kr5TtKt0pG1JjJXur4bTY3pnPeJZsTeVdsSOef83uIJH3e9cpGh0AamG4
+KWg/m1t857SNCjungfjfTb3L/htJNrAbvO/n0ref7anfv+yowfQ11SayGz+Zy27Us5y9fq3l9DUgtZ76
+pVNsTLZMTrbV6gHxmYyss95bWGfdsf+eDuIfdzdKYfZ83XPEQ28viO/r+ifrpFtVZrmvdVZuoH1uUqh7
+cXyYd9m8MMEqhTDJBo3gNb07fdoW/PTpWrwm8NKKKVGTV4L0vcpM7QgrXNLuV5LZfbYkt4+ndOe03hL7
+2ZOLuhZH519bvS5j/qYfKbPX70s6t9Q+6ej8fUlV0xlGwSgYYQAAjOFt1g;

@@ -1,0 +1,32 @@
+-- The Littlest Number --
+-- Size  / Minimum     --
+--  13   /  13         --
+-- Speed / Minimum     --
+--   73  /  75         --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    JUMP     b
+a:
+    COPYFROM 0
+    OUTBOX
+b:
+    INBOX
+    COPYTO   0
+c:
+d:
+    INBOX
+    JUMPZ    a
+    SUB      0
+    JUMPN    e
+    JUMP     c
+e:
+    ADD      0
+    COPYTO   0
+    JUMP     d
+
+
+DEFINE LABEL 0
+eJxTYGBg2GpmncVukNt3Qcd7ySFD77I647qc9xaitcm281ti7RXbZjnMb7nofKmK070uh9nzXPlOH+8l
+QG0MMeH9FTMjWOZfi7y2GsSfFhkTAqJ/JTfNLUtd0r4hPaTmbUZIzfWCndP4Sw7O8Sxrmnu0vHRKc8WK
+rkMVorUsFW1FDKNgFIyCAQUAqvM0KQ;

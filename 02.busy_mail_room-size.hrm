@@ -1,0 +1,12 @@
+-- Busy Mail Room  --
+-- Size  / Minimum --
+--   3   /  3      --
+-- Speed / Minimum --
+--   25  /  30     --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX
+    OUTBOX
+    JUMP     a

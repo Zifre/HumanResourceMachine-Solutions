@@ -1,0 +1,30 @@
+-- Equalization Room --
+-- Size  / Minimum   --
+--   17  /  9        --
+-- Speed / Minimum   --
+--   27  /  27       --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX
+    COPYTO   1
+    INBOX
+    SUB      1
+    JUMPZ    b
+    JUMP     a
+b:
+    COPYFROM 1
+    OUTBOX
+c:
+d:
+    INBOX
+    COPYTO   1
+    INBOX
+    SUB      1
+    JUMPZ    e
+    JUMP     d
+e:
+    COPYFROM 1
+    OUTBOX
+    JUMP     c

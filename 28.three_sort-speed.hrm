@@ -1,0 +1,96 @@
+-- Three Sort      --
+-- Size  / Minimum --
+--   59   /  34    --
+-- Speed / Minimum --
+--   78  /  78     --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+b:
+c:
+d:
+    INBOX
+    COPYTO   0
+    INBOX
+    COPYTO   1
+    SUB      0
+    JUMPN    h
+    INBOX
+    COPYTO   2
+    COPYFROM 2
+    SUB      1
+    JUMPN    e
+    COPYFROM 0
+    OUTBOX
+    COPYFROM 1
+    OUTBOX
+    COPYFROM 2
+    OUTBOX
+    JUMP     a
+e:
+    COPYFROM 0
+    SUB      2
+    JUMPN    f
+    COPYFROM 2
+    OUTBOX
+    COPYFROM 0
+    OUTBOX
+    JUMP     g
+f:
+    COPYFROM 0
+    OUTBOX
+    COPYFROM 2
+    OUTBOX
+g:
+    COPYFROM 1
+    OUTBOX
+    JUMP     b
+h:
+    INBOX
+    COPYTO   2
+    SUB      0
+    JUMPN    i
+    COPYFROM 1
+    OUTBOX
+    COPYFROM 0
+    OUTBOX
+    COPYFROM 2
+    OUTBOX
+    JUMP     c
+i:
+    COPYFROM 2
+    SUB      1
+    JUMPN    j
+    COPYFROM 1
+    OUTBOX
+    COPYFROM 2
+    OUTBOX
+    JUMP     k
+j:
+    COPYFROM 2
+    OUTBOX
+    COPYFROM 1
+    OUTBOX
+k:
+    COPYFROM 0
+    OUTBOX
+    JUMP     d
+
+
+DEFINE LABEL 0
+eJwTZ2BgYPMQrT3oKVpr6x1R/9lPq+ejf+mUj/4H52zxc1+4x5t3qYMX71JOd/eF513qZgW47Jx20dlo
+kqCLWief6/yW4+4R9dt9BauK/K/VageldsSHtS2YGRGw/HKU4AqGUTAKRsGgBwAMnyXi;
+
+DEFINE LABEL 1
+eJzjYWBgaPK85u/gtWGCsf/zznthqR3XIrV6hKI3TLgQ7TxPIjJg+eOQ6Ws++k9eyezpPI9hAIFNMk/5
+4YSIeqbE+S32Sc87P6UVTszJ3DBhcY5a50C6axSMgqEMAKRWIeM;
+
+DEFINE LABEL 2
+eJzjZ2Bg8IllmDMzomr6wtCq6bqBdbO++bLMr/LpWvzPa/qaWu/UbT993u8t9TM/nBV08NTjEJazEpEs
+Z/1j/hxjGAWjYBQMeQAAhwIb5w;
+
+DEFINE LABEL 6
+eJzTZGBgcJdgyDspvqTdV+zofFbJP1lAIYY1XJmxD/neJ94U3JD0WDU3ASR2VYulcJpWQGWcOsOceepb
+JotrXau9oFOXc1b3T5aL4dHCA0ZHC03MrbMKLKyz3liyFL6ymly91MZ5HkivsLNZuqBL2wIQe5bDzoyp
+Tq/jjrvPD/voPzv4daBs6MogxYiXQc4FawIFq/IDrtUe9JRt5nSPaep3iahnGAWjYBTQDAAAgnU9gQ;

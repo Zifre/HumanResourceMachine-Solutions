@@ -1,0 +1,93 @@
+-- Prime Factory   --
+-- Size  / Minimum --
+-- 49   /  28      --
+-- Speed / Minimum --
+-- 373  /  399     --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    COPYFROM 24
+a:
+b:
+    COPYTO   23
+    BUMPUP   23
+    BUMPUP   23
+    INBOX
+    COPYTO   22
+    COPYTO   20
+c:
+    COPYFROM 24
+    COPYTO   21
+d:
+    COPYFROM 22
+    SUB      23
+    COPYTO   22
+    JUMPZ    e
+    JUMPN    f
+    BUMPUP   21
+    JUMP     d
+e:
+    COPYFROM 23
+    OUTBOX
+    COPYFROM 21
+    JUMPZ    a
+    BUMPUP   21
+    COPYTO   20
+    COPYTO   22
+    JUMP     c
+f:
+    BUMPUP   23
+    COPYFROM 20
+    COPYTO   22
+g:
+h:
+    COPYFROM 24
+    COPYTO   21
+i:
+    COPYFROM 22
+    SUB      23
+    COPYTO   22
+    JUMPZ    j
+    JUMPN    k
+    BUMPUP   21
+    JUMP     i
+j:
+    COPYFROM 23
+    OUTBOX
+    COPYFROM 21
+    JUMPZ    b
+    BUMPUP   21
+    COPYTO   20
+    COPYTO   22
+    JUMP     h
+k:
+    COPYFROM 20
+    COPYTO   22
+    BUMPUP   23
+    BUMPUP   23
+    JUMP     g
+
+
+DEFINE LABEL 20
+eJwzZGBgmKY1u1FJLWYDkMkwW+NPFojm0r+1bq9xbl+Z2a2GYnPJBk3rqumLbNsW3LdjmT/LoXTKVCfJ
+BpC69GDJBu2g550GASGrPvoX7geJ7fHuKpUN7yqdFtlfERIlWisalds3LdJo0r2wvTO1g5rmmvrtnQlS
+tzs5pOZXMsOcr6mCKz6lXVqRl+G95H6uWidILrfhpJthfVfp+nqGOdqNXYuXNnsvmd/qPG9OW9V0kPz/
+So6Sl43eZQHd3mUMo2AUjAKyAQAkfkvq;
+
+DEFINE LABEL 21
+eJyzZWBguOI0uXqRbUjNd9OYJk/9Nb3deoUTu/V2TuvQb5rbZnB0/i6Tc0s3mZ9b+sayazFQOYOzJ8ei
+f16fJ332U+vUDVzS/jJoRdezYOsZK4M4Fn3zDVm1x/vaamZP0dVHPE4uAqk/F6PYdjrWaFJbfNNc+6Su
+xWWp3kv0M9wXqmf/mfEoZ02vYu70OpC63pKq6UfLH7cxVi5p/1i3d2Zq88lFyS0nFyW0ti2Y0inbDFKT
+M6M0beO0g3M2TgtZlT/93sZ30x9vyZq5ZOuDOfc23pg/eeW0BRA7P0/dMGHmfLVOiJ4VXSVTtXr2TNow
+oadn5zSGUTAKRgEcAAA+vXQX;
+
+DEFINE LABEL 22
+eJzTZ2BgOKsrWCWuJVilpRzTZCqf2W0u93nSBwWW+QvU+pc1G3IsAiph0LSeXpdn+b5fz7Ju1hvLrsWv
+rAKWp9lcWjHXfvLKK04ci3xdf0z1dlNsA6ldEzi78XVgyCoQu9zXu+xxiHdZSFR/RU9sSI1X3PQ6n9iY
+pgehO6dJRdjPPh3LMh+k7lVmW9GLrHNLQWz17K5S79KAykMV0+scK2c3HqpQbPMs2zDBrwRoR2ndrD9V
+bQsM6yevZBgFo2AUUAwASUtLqg;
+
+DEFINE LABEL 23
+eJyTYWBgSFRbofdA7Y9NolpV5mLVvdlvFb+n75TdmcEqyVLoLuFe7C7BU35MQrCqRmZ24zrFhFYZjYTW
+ydqyzUCtDL9MrLN+mUyvA7G/m/J4gugIR+us8y6SDV1uS9qPu6t1HvFI7fjnNbn6s9/ebIZRMApGwaAC
+ALQgKEw;

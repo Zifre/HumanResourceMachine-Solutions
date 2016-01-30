@@ -1,0 +1,15 @@
+-- Tripler Room    --
+-- Size  / Minimum --
+--   6   /  6      --
+-- Speed / Minimum --
+--   24  /  24     --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX
+    COPYTO   0
+    ADD      0
+    ADD      0
+    OUTBOX
+    JUMP     a

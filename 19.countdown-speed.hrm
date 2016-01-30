@@ -1,0 +1,31 @@
+-- Countdown       --
+-- Size  / Minimum --
+--  15   /  10     --
+-- Speed / Minimum --
+--  81   /  82     --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    JUMP     d
+a:
+b:
+c:
+    OUTBOX
+d:
+    INBOX
+    COPYTO   0
+    JUMPZ    c
+    JUMPN    e
+    JUMP     g
+e:
+f:
+    OUTBOX
+    BUMPUP   0
+    JUMPZ    a
+    JUMP     f
+g:
+h:
+    OUTBOX
+    BUMPDN   0
+    JUMPZ    b
+    JUMP     h

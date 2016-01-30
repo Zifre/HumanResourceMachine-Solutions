@@ -1,0 +1,40 @@
+-- Zero Preservation Initiative --
+-- Size  / Minimum              --
+--   21  /  5                   --
+-- Speed / Minimum              --
+--   24  /  25                  --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX
+    JUMPZ    b
+    JUMP     a
+b:
+    OUTBOX
+c:
+    INBOX
+    JUMPZ    d
+    JUMP     c
+d:
+    OUTBOX
+e:
+    INBOX
+    JUMPZ    f
+    JUMP     e
+f:
+    OUTBOX
+g:
+    INBOX
+    JUMPZ    h
+    JUMP     g
+h:
+    OUTBOX
+i:
+j:
+    INBOX
+    JUMPZ    k
+    JUMP     j
+k:
+    OUTBOX
+    JUMP     i

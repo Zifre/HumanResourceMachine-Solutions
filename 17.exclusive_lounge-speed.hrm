@@ -1,0 +1,38 @@
+-- Exclusive Lounge --
+-- Size  / Minimum  --
+--   21  /  12      --
+-- Speed / Minimum  --
+--   28  /  28      --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    INBOX
+    JUMPN    b
+    INBOX
+    JUMPN    c
+a:
+    COPYFROM 4
+    JUMP     d
+b:
+    INBOX
+    JUMPN    a
+c:
+    COPYFROM 5
+d:
+    OUTBOX
+e:
+    INBOX
+    JUMPN    g
+    INBOX
+    JUMPN    h
+f:
+    COPYFROM 4
+    JUMP     i
+g:
+    INBOX
+    JUMPN    f
+h:
+    COPYFROM 5
+i:
+    OUTBOX
+    JUMP     e

@@ -1,0 +1,52 @@
+-- Multiplication Workshop --
+-- Size  / Minimum         --
+--  15   /  15             --
+-- Speed / Minimum         --
+--  136  /  109            --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    JUMP     c
+a:
+    COPYFROM 1
+b:
+    OUTBOX
+c:
+    INBOX
+    COPYTO   2
+    COPYTO   1
+    INBOX
+    COPYTO   0
+    JUMPZ    b
+d:
+    BUMPDN   0
+    JUMPZ    a
+    COPYFROM 2
+    ADD      1
+    COPYTO   1
+    JUMP     d
+
+
+DEFINE LABEL 0
+eJwTYGBgcDHcmdFgFFFvZ9w0F8hlsDM+6QailUPN0j/73Wr457Wmt8tt78wAF4Y5IPGpTjszqnzuNSeF
+/pjKQCTY6H9tdX5AzIaXQfc2xodFrL0QfXIRsXpHwSgYBbQDAJqNIZA;
+
+DEFINE LABEL 1
+eJxTY2BgOCnev4xDYkVXvbRRym8ZtejP8tf8Xyud9VRV9fZQUrvkE6OxJXW2xuz1QKUMf6Uzu2U0XveA
+2HbGSlt2mZhNNTHvKjW04CiRs3/fL+a0c1q/y96ZZ1yrprt6LGl39gypYfZ8FAFS/zjk4BzZcJb5l6Oc
+53HFMczhiN870z3+x9TOOK2eidGitdpBr+NUQxQjZkaI+jNQERjX6RlT07xRMAqGEwAAFWw5AQ;
+
+DEFINE LABEL 2
+eJxTY2BgmC60IWm60MmSmYJaPS+5U7cBhRguipSmsUoKVv2Q3TkNxF+gdivosapzwTrF2etBfHaDnRmn
+9E6WnNVd0dWtZz/7gNG11TYmt9ZtNZNct8qqf9kTmx9T79v1V9y3ex4NUu/t9jrO201pC6e78zxOd8U2
+Zs8lkbmBk6uzgmKaHocUJiuEacXJhr+OuxzFUdKSALFjFIyCUUB7AABtfDsx;
+
+DEFINE LABEL 9
+eJxLZWBgWGpzz+5BaK7R18hco81RG0ykIhQd2UIm+5530SoNM3s897+R0coFRtPX3DK5te6Od9OWIyFN
+Wx6E2m+qjJDdCNTO0J3ZX/EoZ/7sV5knu03SjhaWpU5Pv5rqHpOXMT+MpzTAe2rtPTuQugW5Gyr9SnLL
+r9csKQDxRYqsZyRX1M1ybomZCeIf6a8LrZp8tHDL1BVdoVN5+5b39VcEdK+JN+6SDLrSudd2UpeZ5ZF+
+b8N30/uMn836bPZrnqKj+IKTbuILJvvazOuK05i1M8Ng+p8spjnPix4tr2oAmVmx/XvAn60sUXZbS9Pu
+bzlaaLd1RVfFdusZb3aHrHqyT3bjx6M+u5tOP98ufa5pS+iFW+suXhRc4Xv54BzuKye711ze21R08Whh
+1TnB5JcnrIPXH7vmz3ig0GfVnmv+FdsfRYD98GLnWhD9/I19rt0HM0u7D891G95rGTx/c9LN75V9bthz
+s7rvzxhaQWr2Ptm5dsaz6WsmvPyz/tILn90iL/r3fn+Wu8fyGcdOy2dNW8Ke228Ke86xk2EUjAI6AgDO
+V8Uh;

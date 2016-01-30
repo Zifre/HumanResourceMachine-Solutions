@@ -1,0 +1,33 @@
+-- Cumulative Countdown --
+-- Size  / Minimum      --
+--  11   /  12          --
+-- Speed / Minimum      --
+--   82  /  82          --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX
+    JUMPZ    d
+    COPYTO   0
+b:
+    COPYTO   1
+    BUMPDN   0
+    JUMPZ    c
+    ADD      1
+    JUMP     b
+c:
+    COPYFROM 1
+d:
+    OUTBOX
+    JUMP     a
+
+
+DEFINE LABEL 0
+eJzjY2BgeKu4IalQ4cdUIJPhh6y9PYi+6Dw9YJHtn6xi89mN1SbPO0Fi7Ab3QvMsd2aohkDUjoJRMAqG
+PgAAA5kTPQ;
+
+DEFINE LABEL 1
+eJxTY2Bg2Cc9eaW5nGCVqXxbkZHC3uxMZb3Ex6pr4uepl6aJa50rv6AzfU233vu9QKUMVrIxTZWyCa2b
+5bV63irq9YtrbZkMEs+wvrdR0/rPjBXWzzuX2txqULSLafJ1dV/o6jF5pbNnyKpab+d51j65fdY+AZUg
+9QphgiuuRQYs74vhWMQb+2PqtMiE1lK/7+npwUYpC0NzExhGwSgYBXQBAHLvOYo;

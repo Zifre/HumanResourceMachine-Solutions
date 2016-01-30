@@ -1,0 +1,28 @@
+-- Zero Terminated Sum --
+-- Size  / Minimum     --
+--  10   /  10         --
+-- Speed / Minimum     --
+--   68  /  72         --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    JUMP     c
+a:
+    COPYFROM 1
+b:
+    OUTBOX
+c:
+    INBOX
+    JUMPZ    b
+d:
+    COPYTO   1
+    INBOX
+    JUMPZ    a
+    ADD      1
+    JUMP     d
+
+
+DEFINE LABEL 1
+eJxTZ2BgcJeI2cAgvab3h2xbUaFCYfJqpRUxj1UP5sloKLYJ6Xw+AFTCsFPWbOpKZesZIdrWM0D8CtMV
+O/4YX1tdZ1w13cYktcPE/Fz5BouAyrWWorXCzqKrT7qlbmt3917S7p7bx+l+q4HPdWcGSF982PQ1URER
+a/tiRFcfi+9fdiz+5KKe2D8zloTcatAO6irVDjqYlx5snTUlSiuOYRSMglFAcwAACfU9dw;

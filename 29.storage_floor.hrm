@@ -1,0 +1,14 @@
+-- Storage Floor   --
+-- Size  / Minimum --
+--   5   /  5      --
+-- Speed / Minimum --
+--   25  /  25     --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX
+    COPYTO   10
+    COPYFROM [10]
+    OUTBOX
+    JUMP     a

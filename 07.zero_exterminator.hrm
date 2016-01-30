@@ -1,0 +1,14 @@
+-- Zero Exterminator --
+-- Size  / Minimum   --
+--   4   /  4        --
+-- Speed / Minimum   --
+--   23  /  23       --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+b:
+    INBOX
+    JUMPZ    b
+    OUTBOX
+    JUMP     a

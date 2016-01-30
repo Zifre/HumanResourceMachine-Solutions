@@ -1,0 +1,80 @@
+-- Alphabetizer    --
+-- Size  / Minimum --
+--  39   /  39     --
+-- Speed / Minimum --
+--  108  /  109    --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    COPYFROM 23
+    COPYTO   20
+    COPYFROM 24
+    COPYTO   21
+a:
+    INBOX
+    COPYTO   [20]
+    JUMPZ    b
+    BUMPUP   20
+    JUMP     a
+b:
+c:
+    INBOX
+    COPYTO   [21]
+    JUMPZ    d
+    BUMPUP   21
+    JUMP     c
+d:
+    COPYFROM 23
+    COPYTO   20
+    COPYFROM 24
+    COPYTO   21
+    JUMP     f
+e:
+    BUMPUP   20
+    BUMPUP   21
+f:
+    COPYFROM [21]
+    JUMPZ    l
+    COPYFROM [20]
+    JUMPZ    i
+    SUB      [21]
+    JUMPZ    e
+    JUMPN    g
+    JUMP     j
+g:
+h:
+i:
+    COPYFROM [23]
+    JUMPZ    m
+    OUTBOX
+    BUMPUP   23
+    JUMP     h
+j:
+k:
+l:
+    COPYFROM [24]
+    JUMPZ    n
+    OUTBOX
+    BUMPUP   24
+    JUMP     k
+m:
+n:
+
+
+DEFINE LABEL 20
+eJxTZGBgEBXWSzwm8Tx6t0xmrKn8hqRChbqcz/Lnys3lRGuPScxvCRJJaH3IJ1j1hNe7bAlvXc4ivtK0
+WIH3idziz6NbJLXirGRPlpTIC1apqkbUz9a4Vgs0kuGEvlo0i2HVdBD7qhaL8y6TLvcyMx7P9xYhfjpW
+jyLWWuYmmJnV5fw3aitiGAWjYBQMGAAAaiYt4Q;
+
+DEFINE LABEL 21
+eJyTY2BgaJfYmeEkJdvsJGU2daesVk++omLbSuX5LU9V5rfEqWd2y2iUTrmrfnCOuorgireK11ZbyUqu
+s5cOWO4k1bYAqJ3BzWB6nZ3x/E0gtpCOezGLYV2OmVlVpoptVeYsh6b8qU7T60Kd7jXfsV/RlWyb22di
+bjSJYRSMglEwKAAApG8qSA;
+
+DEFINE LABEL 23
+eJwTY2Bg+CvNUbJNjqNko8K58reKITWZypndr5U+T3qruHNapWzdrL/Sf2Y0Sv2Y2i6xptddIqGVWUq0
+9quce/E89cxuIZ33/UAjGKpNqjLLzEqngNjfTb9bMoyCUTAKhgQAACZsIpA;
+
+DEFINE LABEL 24
+eJwTYmBg0FecHayvyFK4USGgcpnKufJbGqK1YVqyzSLa7/vFtfbOjFN3X5iienT+ayX72TlK1jOAWhgK
+LEJqPpk7zwOxK0xnBzOMglEwCoYkAAAnyheG;

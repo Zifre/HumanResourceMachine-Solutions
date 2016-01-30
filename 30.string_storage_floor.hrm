@@ -1,0 +1,17 @@
+-- String Storage Floor --
+-- Size  / Minimum      --
+--   7   /  7           --
+-- Speed / Minimum      --
+--  203  /  203         --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX
+    COPYTO   24
+b:
+    COPYFROM [24]
+    JUMPZ    a
+    OUTBOX
+    BUMPUP   24
+    JUMP     b

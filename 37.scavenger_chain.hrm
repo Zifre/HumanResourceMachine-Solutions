@@ -1,0 +1,28 @@
+-- Scavenger Chain
+-- Size  / Minimum
+--   8   /  8
+-- Speed / Minimum
+--   63  /  63
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX
+b:
+    COPYTO   5
+    COPYFROM [5]
+    OUTBOX
+    BUMPUP   5
+    COPYFROM [5]
+    JUMPN    a
+    JUMP     b
+
+
+DEFINE LABEL 5
+eJwTYmBgYJZqK6qXtp4BZDIclrzmD6KXqfyZsUCNpzxE+3UPl771jGbDe82HDAWrQHLPrf9kLbVxLnhk
+m9oB4r+y4nBjGAWjYBQMSQAArhUWbA;
+
+DEFINE LABEL 6
+eJxTZmBg0FLur8hUjlgLZDIclrTO+iH7OUVf8XOKktr39BuaTfki2v0VV7UkG+apz295oTy/BaTuk7lk
+wxvLc+VpNidLkm29yxLsJBsU7Za0P7HZMOGV1c5pGyz2ztxkvnemmZnZ1GqT1z17jSH6XD22TN7uWzrl
+m29u336ve83BzjzlAS5tRdY+39MZRsEoGAV0BwD+Uzkp;

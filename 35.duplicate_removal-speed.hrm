@@ -1,0 +1,39 @@
+-- Duplicate Removal --
+-- Size  / Minimum   --
+--  16   /  17       --
+-- Speed / Minimum   --
+--  157  /  167      --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    INBOX
+    COPYTO   [14]
+a:
+    COPYFROM [14]
+    OUTBOX
+    BUMPUP   14
+b:
+    COPYFROM 14
+    COPYTO   13
+    BUMPDN   13
+    INBOX
+    COPYTO   [14]
+c:
+    SUB      [13]
+    JUMPZ    b
+    BUMPDN   13
+    JUMPN    a
+    COPYFROM [14]
+    JUMP     c
+
+
+DEFINE LABEL 13
+eJzTYmBgqDOeXG1jErIKyGQI02LI69PdmfHf6HPKJ3OjFD3LLanZVnuzs62cCzaZX6oyM5teV2c8u7HB
+aHbjUYNrtSA9vq79FXyuJ0s83OtyDnruzNjua5Zu7M9SaOwfUPnZT7Lht/eKLleP9/39LoUTJznr9Qs7
+P++84sRTDtIrFfG+Xyj686QDiVsmb0hf07sh/XlnZcrsxnMxAZXXIjlKeGOts1wSPqcwjIJRMApoAgBX
+tkQ8;
+
+DEFINE LABEL 14
+eJxTYQAC6YhAf9ENEwRE62bxih2cwyDNMl9f8eh8JTXneSDpBiP73FN6a3p59BjmsBu0LThg1LZgk7n1
+DJAcl35CK5NRQutWs9mN2VaXqkBidsZ6iausHkWA2L6uzvPa3SPqD3o25e/3asrf4hfTlBWU26cQ9mOq
+RKT1DNGondOCojO7BWJCaoSi9RIZRsEoGAV0BQCnIC9K;

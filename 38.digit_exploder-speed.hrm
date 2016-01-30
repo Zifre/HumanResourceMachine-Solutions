@@ -1,0 +1,137 @@
+-- Digit Exploder  --
+-- Size  / Minimum --
+--   89  /  30     --
+-- Speed / Minimum --
+--  165  /  165    --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    COPYFROM 9
+    COPYTO   7
+    COPYTO   8
+    INBOX
+    COPYTO   0
+    SUB      11
+    JUMPN    j
+    COPYTO   0
+    SUB      11
+    JUMPN    i
+    COPYTO   0
+    SUB      11
+    JUMPN    h
+    COPYTO   0
+    SUB      11
+    JUMPN    g
+    COPYTO   0
+    SUB      11
+    JUMPN    f
+    COPYTO   0
+    SUB      11
+    JUMPN    e
+    COPYTO   0
+    SUB      11
+    JUMPN    d
+    COPYTO   0
+    SUB      11
+    JUMPN    c
+    COPYTO   0
+    SUB      11
+    JUMPN    b
+    COPYTO   0
+    BUMPUP   8
+b:
+    BUMPUP   8
+c:
+    BUMPUP   8
+d:
+    BUMPUP   8
+e:
+    BUMPUP   8
+f:
+    BUMPUP   8
+g:
+    BUMPUP   8
+h:
+    BUMPUP   8
+i:
+    BUMPUP   8
+j:
+    COPYFROM 0
+    SUB      10
+    JUMPN    s
+    COPYTO   0
+    SUB      10
+    JUMPN    r
+    COPYTO   0
+    SUB      10
+    JUMPN    q
+    COPYTO   0
+    SUB      10
+    JUMPN    p
+    COPYTO   0
+    SUB      10
+    JUMPN    o
+    COPYTO   0
+    SUB      10
+    JUMPN    n
+    COPYTO   0
+    SUB      10
+    JUMPN    m
+    COPYTO   0
+    SUB      10
+    JUMPN    l
+    COPYTO   0
+    SUB      10
+    JUMPN    k
+    COPYTO   0
+    BUMPUP   7
+k:
+    BUMPUP   7
+l:
+    BUMPUP   7
+m:
+    BUMPUP   7
+n:
+    BUMPUP   7
+o:
+    BUMPUP   7
+p:
+    BUMPUP   7
+q:
+    BUMPUP   7
+r:
+    BUMPUP   7
+s:
+    COPYFROM 8
+    JUMPZ    t
+    OUTBOX
+    JUMP     u
+t:
+    COPYFROM 7
+    JUMPZ    v
+u:
+    COPYFROM 7
+    OUTBOX
+v:
+    COPYFROM 0
+    OUTBOX
+    JUMP     a
+
+
+DEFINE LABEL 0
+eJwzZGBgcJdoK3KXODgHyGRol1gTD6I/KLQtWKk8vS5S88+MEG2W+YE6TXPP6n6exKOX2tGnG9MEUvPJ
+PKDyjaXZ1FVW9zaC+GZmf7Ie2VZlBjvX5QS4HMzrd5lcLeYU03TfLqEVJP/R/2jh68CYpiUhuX33wgon
+SkUUThSNWtN7Ifpec18MTzlITXQ+h1tcXlfp3LwVXbfyP08SL9w57WyJ9YzW8i2TWSre97eWK7aB1G1O
+q8pUz96bfalobzbDKBgFo4BsAADPKU1H;
+
+DEFINE LABEL 7
+eJxTYGBguKql1hmpuaQ9Tn1F1w/ZSyvM5a6t1leM2bBAbf4moDTDJnOtuE3mj9veW3AsAvH/ef2ZYes9
+v8XaZ3L1Fj/ngncBf7LSg7+nS0R+T58YbZ/rExtScy6mdIpoFO/SB6ExG9KDZTd+9I9Yy+h1cA5If0jU
+5OqsoMzuz35mUxlGwSgYBQMKALh4NI4;
+
+DEFINE LABEL 8
+eJyzYGBgkFdnmZ+p3Lbgh+y5pY1SoqtZJWevPyaxZGuj1IZ9m+Wrjq5Utj4GVMZQYbozw8xs/iYQe5bD
+5JXXHetm9buodTJ7BlSW+x4t1A08Wpge7F32OESt83HIj6mqISzzs4IEV+QHSK6z8FXassf78RYHr8db
+2t1lN3K7XVvN5+q9BGTW68Al7R7uDHNA7Jrkg3NM0ua36GdMrn6VyVM+O9+5oLfkYB5jZVtRbZVsc21V
+1+Lmisdb/Eo27Lub9/lATmbqtm2pIatsku1ng/QfL5vfIpNvNGl1pvO8T2n9yxhGwSgYBXgBAMZPXOw;

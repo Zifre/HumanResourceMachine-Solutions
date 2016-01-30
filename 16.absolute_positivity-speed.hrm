@@ -1,0 +1,28 @@
+-- Absolute Positivity --
+-- Size  / Minimum     --
+--   15  /  8          --
+-- Speed / Minimum     --
+--   36  /  36         --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    INBOX
+    JUMPN    a
+    JUMP     b
+a:
+    COPYTO   1
+    SUB      1
+    SUB      1
+b:
+c:
+    OUTBOX
+d:
+    INBOX
+    JUMPN    e
+    JUMP     c
+e:
+    COPYTO   1
+    SUB      1
+    SUB      1
+    OUTBOX
+    JUMP     d

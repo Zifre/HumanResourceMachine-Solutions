@@ -1,0 +1,57 @@
+-- Fibonacci Visitor --
+-- Size  / Minimum   --
+--  18   /  19       --
+-- Speed / Minimum   --
+--  154  /  156      --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX
+    COPYTO   0
+    COPYFROM 9
+    COPYTO   1
+    COPYTO   2
+    BUMPUP   2
+b:
+    OUTBOX
+    COPYFROM 1
+    ADD      2
+    COPYTO   3
+    COPYFROM 0
+    SUB      3
+    JUMPN    a
+    COPYFROM 2
+    COPYTO   1
+    COPYFROM 3
+    COPYTO   2
+    JUMP     b
+
+
+DEFINE LABEL 0
+eJzTZGBgkBXgKb/H/7jtGU//sulCB/NqZNwXbpaPWLtaSWlLprLsxhfKgiteKFvPyFFiyAMqZzilV5cT
+qKPYdkmbYxG/ruxGH73n25sNN+zbZaK3V88ydVuGtexGNZvpa5JtD855ZKvVs8j2XLmKLUcJSG+tN0th
+k6fRJGZP2Y3MnqKrd/r0Vxj7T65WCFPrjAlX6xSIaSs6F3OyxCdWsqEt/sfUr6nv9zKMglEwCmgGAOT5
+PvA;
+
+DEFINE LABEL 1
+eJwzYGBgWGG9d2aC3edJ3G6ve7b46fWvDKqanh5sP3t5cP+yrKB7Gz/7rdn902fDvvMuPw5LO5gf1rRe
+s/uN5fPthhYxG4rNL60oNj86v8Bi70ygUQxRERv2+cewzO+Ma1twIFF0dVlq4madzNRtK7Ik173ICli+
+LiOhFaSOpWJ+C2eZVs/5YvvZgsXnlk4o1tp1tsT8sFu5/cm9VQynttdYHwOpCyyevb6jLGYDY6Xkuv+V
+oqtBYjylr3tay9U6DeuXtDPgAA2V39MrajYkqTVnxsa2rYjBpW4UjIKRDgA1IFy8;
+
+DEFINE LABEL 2
+eJwzYGBgKLCICSkz00u0MQmoPGBUNf2A0aUVNiZKW7aavd71yVxrV4GF2nagMgYZjcnVQjqitUttJleD
++B7uEfXcbu/7ud3cF3K6C65g9hRdXe8VssrCl3fpmkDrGenBWj3Pgv/MUA7tWiwbfm21ULTsxp5Y2Y3u
+8dPXtCScW8qQ9GNqXdLsRpBZgsVaPZ5ltxqaK67V7q0KqamouVZrVnurYWvtiq6KmqrpzRXnlnKWia72
+K7m2WrA4ZJV4oftCmfzCiQyjYBSMAooAAFD4TP4;
+
+DEFINE LABEL 3
+eJyTZmBgCNS5tKJD/9rqCtNrq03ML62wMfkz45L2tdo+XZ7y/0YshUAlDDcd2opi7UVr79u97492sJ8t
+5nR0Pp/r0flsHn9mHPRc07vfK6QGpO5xyNHCZ8F7Z8qGe5dNi7xWKxAzvc4m+Wjh5rS6WQyjYBSMgkEH
+AAFBLlA;
+
+DEFINE LABEL 9
+eJwTZ2BgmBdWOFE2/OQiqQjJdUAug2w4Qx6Ibkn4ns6U6L7wQGLIKhD/b1Jdjn5GasfVwpgNk4v2ZoPE
+1tfzlG+tvVZrWfNjakXNyUXFdaKrIeJacQzUBEmyofikIwt4l4LorbU7M9bX1+Usb+Ipl2vL7L7TxjDn
+Xivv0udNIau21gqu+F/Jsai1vHQKxI11OZvq7HP/VAlWOVYuaWesLJxIVTePglEwBAAABeNAHg;

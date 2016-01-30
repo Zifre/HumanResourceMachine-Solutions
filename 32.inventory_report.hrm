@@ -1,0 +1,29 @@
+-- Inventory Report --
+-- Size  / Minimum  --
+--  16   /  16      --
+-- Speed / Minimum  --
+--  380  /  393     --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+    JUMP     b
+a:
+    COPYFROM 16
+    OUTBOX
+b:
+    COPYFROM 14
+    COPYTO   15
+    COPYTO   16
+    INBOX
+    COPYTO   17
+    JUMP     e
+c:
+    BUMPUP   16
+d:
+    BUMPUP   15
+e:
+    COPYFROM [15]
+    JUMPZ    a
+    SUB      17
+    JUMPZ    c
+    JUMP     d

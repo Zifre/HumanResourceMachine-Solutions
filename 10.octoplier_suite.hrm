@@ -1,0 +1,18 @@
+-- Octoplier Suite --
+-- Size 9/9        --
+-- Speed 36/36     --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    INBOX
+    COPYTO   0
+    ADD      0
+    COPYTO   0
+    ADD      0
+    COPYTO   0
+    ADD      0
+    OUTBOX
+    JUMP     a
+
+
