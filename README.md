@@ -18,11 +18,9 @@ game own challenge standard).
 
 # Scores
 
-[I'm an inline-style link](https://www.google.com)
-
-| Level | Name                         | Size | Speed |
+| Level | Name                         | Size/Goal | Speed/Goal |
 |-------|------------------------------|------|-------|
-| 1     | [Mail Room]()                    | his   | doing |
+| 1     | [Mail Room](solutions/01.mail_room.hrm)                    | his   | doing |
 | 2     | [Busy Mail Room]()               | s     | d     |
 | 3     | [Copy Floor]()                   | sfgsd | fsdg  |
 | 4     | [Scrambler Handler]()            | his   | doing |
@@ -36,7 +34,7 @@ game own challenge standard).
 | 12    | [Tetracontiplier]()              | s     | d     |
 | 13    | [Equalization Room]()            | sfgsd | fsdg  |
 | 14    | [Maximization Room]()           | his   | doing |
-| 15    | [Employee Morale Insertion]()    | s     | d     | 
+| 15    | [Employee Morale Insertion]()    | s     | d     |
 | 16    | [Absolute Positivity]()          | sfgsd | fsdg  |
 | 17    | [Exclusive Lounge]()             | his   | doing |
 | 18    | [Sabbatical Beach Paradise]()    | s     | d     |
