@@ -1,20 +1,28 @@
 # HumanResourceMachine-Solutions
 
-This repository contains solutions for the PC game Human Resource Machine. This are solutions that
-I used on my own run of this game. Each file has the number and name of the particular level that
-its solves, in addition to the type of attribute that the solutions tries to optimize. Take the
-following example:
+This repository contains solutions for the PC game Human Resource Machine. This are the solutions of
+my own run of this game. Take this into account when looking at these solutions, where even if there
+exist better one for some of this levels, they are not meant to be the best attainable solutions,
+but instead solutions that achieve the game challenge goal, while still maintaining a somewhat easy
+to follow code base.
+
+
+# Format
+
+Each file has the number and name of the particular level that its solves, in addition to the type
+of attribute that the solutions tries to optimize. Take the following example:
 
     02.busy_mail_room-size.hrm
     02.busy_mail_room-speed.hrm
 
-Means that the level 02.busy_mail_room has two solutions, one optimized for size, and another one
+Means that the level *02.busy_mail_room* has two solutions, one optimized for size, and another one
 optimized for speed. On the contrary if one has the following:
 
     01.mail_room.hrm
 
-This means that this particular solution achieves both speed and size at the same time (as peer the
+This means that this particular solution achieves both speed and size at the same time (as per the
 game own challenge standard).
+
 
 # Scores
 
@@ -23,7 +31,7 @@ game own challenge standard).
 | 1     | Mail Room                      | [6**/6**](solutions/01.mail_room.hrm)                         | [6**/6**](solutions/01.mail_room.hrm)                            |
 | 2     | Busy Mail Room                 | [3**/3**](solutions/02.busy_mail_room-size.hrm)               | [20**/25**](solutions/02.busy_mail_room-speed.hrm)               |
 | 3     | Copy Floor                     | [6**/6**](solutions/03.copy_floor.hrm)                        | [6**/6**](solutions/03.copy_floor.hrm)                           |
-| 4     | Scrambler Handler              | [7**/7**](solutions/04.scrambler_handler.hrm)                 | [7**/7**](solutions/04.scrambler_handler.hrm)                    |
+| 4     | Scrambler Handler              | [7**/7**](solutions/04.scrambler_handler.hrm)                 | [21**/21**](solutions/04.scrambler_handler.hrm)                  |
 | *5*   | *Coffe Time*                   |                                                               |                                                                  |
 | 6     | Rainy Summer                   | [6**/6**](solutions/06.rainy_summer.hrm)                      | [24**/24**](solutions/06.rainy_summer.hrm)                       |
 | 7     | Zero Exterminator              | [4**/4**](solutions/07.zero_exterminator.hrm)                 | [23**/23**](solutions/07.zero_exterminator.hrm)                  |
