@@ -1,11 +1,6 @@
 # HumanResourceMachine-Solutions
 
-This repository contains solutions for the PC game Human Resource Machine. This are the solutions of
-my own run of this game. Take this into account when looking at these solutions, where even if there
-exist better one for some of this levels, they are not meant to be the best attainable solutions,
-but instead solutions that achieve the game challenge goal, while still maintaining a somewhat easy
-to follow code base.
-
+This repository contains solutions for the PC game Human Resource Machine. 
 
 # Format
 
@@ -20,7 +15,7 @@ optimized for speed. On the contrary if one has the following:
 
     01.mail_room.hrm
 
-This means that this particular solution achieves both speed and size at the same time (as per the
+It means that this particular solution achieves both speed and size at the same time (as per the
 game own challenge standard).
 
 
